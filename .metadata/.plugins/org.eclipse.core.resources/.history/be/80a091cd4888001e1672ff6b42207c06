@@ -1,0 +1,13 @@
+package oop_21_11_23;
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		float i = 9.9f;
+		
+		System.out.println(i);
+		
+	}
+
+}
