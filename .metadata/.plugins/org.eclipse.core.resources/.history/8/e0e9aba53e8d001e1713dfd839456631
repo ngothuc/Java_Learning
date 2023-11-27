@@ -1,0 +1,9 @@
+package oop_27_11_23;
+
+public class Square {
+
+    private double edge;
+
+    
+
+}
