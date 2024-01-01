@@ -1,0 +1,26 @@
+package oop_01_01_24;
+
+public class BackAccount {
+	
+	private String owner;
+	private double balance;
+
+	public BackAccount() {
+		this.owner = "noname";
+	}
+
+	public BackAccount(String owner, double balance) {
+		this.owner = owner;
+		this.balance = balance;
+	}
+
+	public class  Test {
+		public void main(String[] args) {
+			BackAccount acc1 = new BackAccount();
+			BackAccount acc2 = new BackAccount("Thuy", 100);
+			System.out.println(acc1.getOwner());
+			System.out.println(acc2.owner);
+		}
+		
+	}
+}
