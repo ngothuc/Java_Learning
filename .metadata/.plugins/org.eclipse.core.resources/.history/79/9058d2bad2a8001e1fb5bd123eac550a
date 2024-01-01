@@ -1,0 +1,29 @@
+package oop_01_01_24;
+
+public class Test {
+    int a, b;
+
+    public Test(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    public void swap(int a, int b) {
+        int temp;
+        temp = a; a = b; b = temp;
+    }
+
+    public void print() {
+        System.out.println("a = " + this.a);
+        System.out.println("b = " + this.b);
+    }
+
+    public static void main(String[] args) {
+        Test test = new Test(3, 5);
+        test.print();
+
+        test.swap(test.a, test.b);
+        test.print();
+    }
+
+}

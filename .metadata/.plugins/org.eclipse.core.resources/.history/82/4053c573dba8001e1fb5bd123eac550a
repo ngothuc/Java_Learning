@@ -1,0 +1,9 @@
+package oop_02_01_24;
+
+import java.sql.Date;
+
+public class Person {
+    protected String name;
+    protected Date birthday;
+    
+}
