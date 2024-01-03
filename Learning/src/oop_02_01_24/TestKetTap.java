@@ -3,6 +3,9 @@ package oop_02_01_24;
 //Xong bai 6
 
 public class TestKetTap {
+    
+
+
     public static void main(String[] args) {
         PhongBan pb = new PhongBan("Vien CNTT - TT");
 
