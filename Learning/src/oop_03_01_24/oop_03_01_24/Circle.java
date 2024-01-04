@@ -39,5 +39,5 @@ public class Circle extends Shape implements Actable{
         System.out.println("Fill circle at (" + x + ", " + y + ")");
         //To do sth
     }
-    
+
 }
